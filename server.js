@@ -1,8 +1,12 @@
-const http = require('http');
+import http from 'http';
 
-http.createServer((req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/html'});
-  res.end('<html><body>Lyfe</body></html>');
-}).listen(7860, () => {
-  console.log('Server listening on port 7860');
+const server = http.createServer((req, res) => {
+    res.statusCode = 200;
+    res.setHeader('Content-Type', 'text/plain');
+    res.end('Hello, World!\n');
+});
+
+const port = process.env.PORT || 3000;
+server.listen(port, () => {
+    console.log(`Server running at http://localhost:${port}/`);
 });
