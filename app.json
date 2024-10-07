@@ -3,7 +3,7 @@
   "description": "I am Gifted-Md Whatsapp MultiDevice Whatsapp Bot built in NodeJs to make whatsapp experience better",
   "website": "https://api.giftedtechnexus.co.ke",
   "repository": "https://github.com/mouricedevs/gifted",
-  "logo": "https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
+  "logo": "https://telegra.ph/file/6ed51d9ca3914432e9df4.jpg",
   "keywords": ["gifted-md", "giftedtech", "Gifted-Md"],
   "success_url": "/",
   "stack": "heroku-24",
@@ -11,17 +11,17 @@
     "MODE": {
       "description": "Put Mode either public or private",
       "required": true,
-      "value": "public"
+      "value": "private"
     },
      "OWNER_NAME": {
       "description": "Put the name of Bot Owner",
       "required": true,
-      "value": "GIFTED TECH"
+      "value": "Ͳհҽ օղҽ ąҍօѵҽ ąӀӀ ☠️👑🌍"
     },
     "OWNER_NUMBER": {
       "description": "Put Bot Owner Numbers",
       "required": true,
-      "value": "254762016957"
+      "value": "2348084644182"
     },
     "AUTO_STICKER": {
       "description": "Put true/false to enable auto conversion of videos and photos as stickers",
@@ -46,7 +46,7 @@
     "AUTO_READ_STATUS": {
       "description": "Put true if you want bot to view status",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_READ": {
       "description": "Put true if you want bot to read message",
@@ -66,7 +66,7 @@
     "ALWAYS_ONLINE": {
       "description": "Put true if you want bot to show always online",
       "required": true,
-      "value": "true"
+      "value": "false"
     },
     "AUTO_DOWNLOAD": {
       "description": "Put true if you need to download media by using link without cmd",
@@ -91,12 +91,12 @@
     "PREFIX": {
       "description": "You can leave blank for bot to use multiple prefixes",
       "required": true,
-      "value": "."
+      "value": "1"
     },
      "DEPLOYMENT_PLATFORM": {
       "description": "Leave the value to default unless otherwise. ",
       "required": true,
-      "value": "heroku"
+      "value": "huggingface"
     },
     "AUTO_REJECT_CALLS": {
       "description": "Put true if you want to reject call",
